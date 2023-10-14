@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(167, 100, 58);
+  color: rgb(167, 100, 58);
+}
+
+#root {
+  display: flex;
+}
+
+.main-div {
+  margin: 250px auto;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-div {
+  gap: 3em;
+  width: 30em;
+  background-color: rgb(255, 255, 255);
+  padding: 3em;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+
+.text-div {
+  flex-direction: column;
+  display: flex;
+}
+
+#author {
+  margin-left: auto;
+}
+
+.buttons-div {
+  display: flex;
+  padding: 1em;
+}
+
+.tumblr-btn {
+  margin-right: auto;
+}
+
+.new-btn {
+  margin-left: auto;
+}
